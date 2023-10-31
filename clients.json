@@ -1,0 +1,434 @@
+
+{
+    "name": "Jimmy",
+    "age": 21,
+    "likes": ["a", "e"],
+    "hint": "apple"
+}
+
+{
+    "name": "Ella",
+    "age": 24,
+    "likes": ["e", "o"],
+    "hint": "potato"
+    }
+    
+    {
+    "name": "Henry",
+    "age": 22,
+    "likes": ["i", "u"],
+    "hint": "music"
+    }
+    
+    {
+    "name": "Scarlett",
+    "age": 26,
+    "likes": ["a", "o"],
+    "hint": "carrot"
+    }
+    
+    {
+    "name": "Carter",
+    "age": 20,
+    "likes": ["a", "i"],
+    "hint": "sail"
+    }
+    
+    {
+    "name": "Avery",
+    "age": 29,
+    "likes": ["e", "u"],
+    "hint": "sun"
+    }
+    
+    {
+    "name": "Sofia",
+    "age": 21,
+    "likes": ["i", "o"],
+    "hint": "rope"
+    }
+    
+    {
+    "name": "Jackson",
+    "age": 23,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Aria",
+    "age": 25,
+    "likes": ["a", "i"],
+    "hint": "rain"
+    }
+    
+    {
+    "name": "Samuel",
+    "age": 27,
+    "likes": ["a", "o"],
+    "hint": "boat"
+    }
+    
+    {
+    "name": "Madison",
+    "age": 28,
+    "likes": ["a", "e"],
+    "hint": "game"
+    }
+    
+    {
+    "name": "Mason",
+    "age": 19,
+    "likes": ["a", "o"],
+    "hint": "soap"
+    }
+    
+    {
+    "name": "Emma",
+    "age": 22,
+    "likes": ["e", "i"],
+    "hint": "pie"
+    }
+    
+    {
+    "name": "Liam",
+    "age": 20,
+    "likes": ["i", "o"],
+    "hint": "lion"
+    }
+    
+    {
+    "name": "Abigail",
+    "age": 24,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Noah",
+    "age": 23,
+    "likes": ["o", "u"],
+    "hint": "soup"
+    }
+    
+    {
+    "name": "Grace",
+    "age": 26,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Lucas",
+    "age": 27,
+    "likes": ["a", "i"],
+    "hint": "rain"
+    }
+    
+    {
+    "name": "Chloe",
+    "age": 25,
+    "likes": ["o", "u"],
+    "hint": "soup"
+    }
+    
+    {
+    "name": "Elijah",
+    "age": 28,
+    "likes": ["e", "i"],
+    "hint": "bike"
+    }
+    
+    {
+    "name": "Aubrey",
+    "age": 29,
+    "likes": ["a", "o"],
+    "hint": "goat"
+    }
+    
+    {
+    "name": "Logan",
+    "age": 21,
+    "likes": ["o", "i"],
+    "hint": "lion"
+    }
+    
+    {
+    "name": "Harper",
+    "age": 19,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Evan",
+    "age": 24,
+    "likes": ["e", "u"],
+    "hint": "bus"
+    }
+    
+    {
+    "name": "Addison",
+    "age": 22,
+    "likes": ["a", "o"],
+    "hint": "boat"
+    }
+    
+    {
+    "name": "William",
+    "age": 20,
+    "likes": ["i", "o"],
+    "hint": "lion"
+    }
+    
+    {
+    "name": "Natalie",
+    "age": 26,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Mason",
+    "age": 23,
+    "likes": ["o", "u"],
+    "hint": "soup"
+    }
+    
+    {
+    "name": "Ella",
+    "age": 25,
+    "likes": ["e", "i"],
+    "hint": "pie"
+    }
+    
+    {
+    "name": "Daniel",
+    "age": 28,
+    "likes": ["a", "o"],
+    "hint": "soap"
+    }
+    
+    {
+    "name": "Sophia",
+    "age": 21,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Lucas",
+    "age": 24,
+    "likes": ["o", "i"],
+    "hint": "lion"
+    }
+    
+    {
+    "name": "Isabella",
+    "age": 23,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Liam",
+    "age": 22,
+    "likes": ["o", "u"],
+    "hint": "soup"
+    }
+    
+    {
+    "name": "Avery",
+    "age": 29,
+    "likes": ["a", "i"],
+    "hint": "rain"
+    }
+    
+    {
+    "name": "Olivia",
+    "age": 25,
+    "likes": ["e", "i"],
+    "hint": "pie"
+    }
+    
+    {
+    "name": "Jackson",
+    "age": 27,
+    "likes": ["a", "o"],
+    "hint": "boat"
+    }
+    
+    {
+    "name": "Mia",
+    "age": 21,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Liam",
+    "age": 20,
+    "likes": ["o", "i"],
+    "hint": "lion"
+    }
+    
+    {
+    "name": "Charlotte",
+    "age": 28,
+    "likes": ["a", "e"],
+    "hint": "cake"
+    }
+    
+    {
+    "name": "Noah",
+    "age": 26,
+    "likes": ["o", "u"],
+    "hint": "soup"
+    }
+    
+    {
+    "name": "Ethan",
+    "age": 25,
+    "likes": ["e", "i"],
+    "hint": "bike"
+    }
+    
+    {
+    "name": "Sophia",
+    "age": 29,
+    "likes": ["a", "o"],
+    "hint": "goat"
+    }
+
+    {
+        "name": "Sarah",
+        "age": 28,
+        "likes": ["o", "i"],
+        "hint": "lion"
+        }
+        
+        {
+        "name": "David",
+        "age": 19,
+        "likes": ["e", "u"],
+        "hint": "blue"
+        }
+        
+        {
+        "name": "Emily",
+        "age": 24,
+        "likes": ["a", "o"],
+        "hint": "goat"
+        }
+        
+        {
+        "name": "Michael",
+        "age": 22,
+        "likes": ["i", "o"],
+        "hint": "milk"
+        }
+        
+        {
+        "name": "Olivia",
+        "age": 20,
+        "likes": ["o", "e"],
+        "hint": "shoe"
+        }
+        
+        {
+        "name": "Daniel",
+        "age": 25,
+        "likes": ["a", "i"],
+        "hint": "rain"
+        }
+        
+        {
+        "name": "Sophia",
+        "age": 23,
+        "likes": ["o", "u"],
+        "hint": "soup"
+        }
+        
+        {
+        "name": "William",
+        "age": 27,
+        "likes": ["a", "e"],
+        "hint": "pear"
+        }
+        
+        {
+        "name": "Ava",
+        "age": 18,
+        "likes": ["a", "o"],
+        "hint": "goat"
+        }
+        
+        {
+        "name": "Ethan",
+        "age": 26,
+        "likes": ["e", "i"],
+        "hint": "bike"
+        }
+        
+        {
+        "name": "Mia",
+        "age": 21,
+        "likes": ["i", "a"],
+        "hint": "mail"
+        }
+        
+        {
+        "name": "Liam",
+        "age": 24,
+        "likes": ["a", "u"],
+        "hint": "haul"
+        }
+        
+        {
+        "name": "Charlotte",
+        "age": 22,
+        "likes": ["o", "e"],
+        "hint": "rose"
+        }
+        
+        {
+        "name": "James",
+        "age": 29,
+        "likes": ["a", "i"],
+        "hint": "rain"
+        }
+        
+        {
+        "name": "Grace",
+        "age": 20,
+        "likes": ["e", "o"],
+        "hint": "shoe"
+        }
+        
+        {
+        "name": "Benjamin",
+        "age": 28,
+        "likes": ["e", "i"],
+        "hint": "bike"
+        }
+        
+        {
+        "name": "Lily",
+        "age": 19,
+        "likes": ["i", "u"],
+        "hint": "milk"
+        }
+        
+        {
+        "name": "Alexander",
+        "age": 25,
+        "likes": ["a", "o"],
+        "hint": "goat"
+        }
+        
+        {
+        "name": "Aiden",
+        "age": 23,
+        "likes": ["a", "e"],
+        "hint": "apple"
+        }
