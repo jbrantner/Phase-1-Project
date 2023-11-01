@@ -1,20 +1,41 @@
 
 
-fetch("clients.json")
-    .then(function (response){return response.json()})
-    .then(function (data) { 
-        getRandomClient(data)
-    })
-    
+// Async Code
+function fetchClient(){
+    let number = 0
 
+fetch("clients.json")
+    // convert to json
+    .then(function (response){return response.json()})
+    // get random number based on number of clients in clients.json
+    .then((data) => {
+        number = getRandomClient(data)
+        return data
+    })
+    // use random number to access client's information
+    .then((data) => {
+        accessClientData(data, number)
+        }
+    )
+
+// end Async Code
+
+    
 // generates a random client
 function getRandomClient(data){
     const clientNumber = data.length
-    console.log(Math.floor(Math.random() * clientNumber));
+    return Math.floor(Math.random() * clientNumber);
+}}
+
+
+
+// accesses age and vowels from that random number index
+function accessClientData(data, number) {
+    console.log(data[number]);
+    console.log(number);
 }
 
-
-
+fetchClient()
 
 
 const vowelsCheck = ['a', 'e', 'i', 'o', 'u']
