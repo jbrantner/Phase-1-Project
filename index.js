@@ -1,5 +1,22 @@
 
 
+fetch("clients.json")
+    .then(function (response){return response.json()})
+    .then(function (data) { 
+        getRandomClient(data)
+    })
+    
+
+// generates a random client
+function getRandomClient(data){
+    const clientNumber = data.length
+    console.log(Math.floor(Math.random() * clientNumber));
+}
+
+
+
+
+
 const vowelsCheck = ['a', 'e', 'i', 'o', 'u']
 
 let leftOvers = [].join('')
@@ -74,8 +91,7 @@ button.addEventListener('click', () => {
 })
 
 
-console.log('count vowels = ' + countVowels('lets see how this goes'))
-console.log('find con = ' + findConsonants('lets see how this goes'))
+
 
 
 

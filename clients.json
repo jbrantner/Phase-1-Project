@@ -1,5 +1,4 @@
-{
-    "clients": [
+[
         {
             "name": "Ella",
             "age": 24,
@@ -434,4 +433,4 @@
                 "hint": "apple"
                 }
     ]
-  }
+  
