@@ -1,8 +1,9 @@
 
 
-// Async Code
 function fetchClient(){
     let number = 0
+
+// Async Code
 
 fetch("clients.json")
     // convert to json
@@ -13,10 +14,7 @@ fetch("clients.json")
         return data
     })
     // use random number to access client's information
-    .then((data) => {
-        accessClientData(data, number)
-        }
-    )
+    .then((data) => {accessClientData(data, number)})
 
 // end Async Code
 
@@ -27,15 +25,21 @@ function getRandomClient(data){
     return Math.floor(Math.random() * clientNumber);
 }}
 
-
-
 // accesses age and vowels from that random number index
 function accessClientData(data, number) {
     console.log(data[number]);
-    console.log(number);
+    const createProfile = document.createElement('h1')
+    document.getElementById('clientProfiles').appendChild(createProfile);
+    createProfile.innerHTML = `Hello, my name is ${data[number].name}. I'm ${data[number].age} years old. I would like to order '${data[number].likes[0].toUpperCase()}' and '${data[number].likes[1].toUpperCase()}', please.`
+    const orderInput = document.createElement('input')
+    document.getElementById('clientProfiles').appendChild(orderInput);
+    const orderInputButton = document.createElement('button')
+    orderInputButton.innerHTML = "Submit Order"
+    document.getElementById('clientProfiles').appendChild(orderInputButton)
 }
 
-fetchClient()
+
+
 
 
 const vowelsCheck = ['a', 'e', 'i', 'o', 'u']
@@ -101,6 +105,7 @@ function countVowels(word){
 //     return vowels;
 // }
 
+// consonant button 
 const input = document.getElementById('wordInput');
 
 const button = document.getElementById('countButton')
@@ -111,9 +116,12 @@ button.addEventListener('click', () => {
     newH1.innerHTML = result
 })
 
-
-
-
+// generate client button
+const generateClientButton = document.getElementById('clientButton')
+// show client profile
+generateClientButton.addEventListener('click', () => {
+    fetchClient()
+})
 
 
 
