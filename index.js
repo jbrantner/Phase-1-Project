@@ -45,7 +45,6 @@ function postClientData(data, number) {
 
     orderInputButton.addEventListener('click', () => {
         findMatchingVowels(data, number, orderInput.value)
-        returnConsonants(orderInput.value)
     })
 }
 
@@ -147,6 +146,7 @@ function findMatchingVowels(data, number, word){
 
 function removeClient(id){
     document.getElementById(`client${id}`).innerHTML = "Thanks!"
+    returnConsonants(orderInput.value)
     setTimeout(() => document.getElementById(`${id}`).remove(), 1000)
 }
 
