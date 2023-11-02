@@ -45,12 +45,13 @@ function postClientData(data, number) {
 
     orderInputButton.addEventListener('click', () => {
         findMatchingVowels(data, number, orderInput.value)
+        returnConsonants(orderInput.value)
     })
 }
 
 
 
-
+let money = 0;
 
 const vowelsCheck = ['a', 'e', 'i', 'o', 'u']
 
@@ -68,9 +69,10 @@ function returnConsonants(word){
             if(newLetters[ii] === vowelsCheck[i]){
                 letters.splice(ii, 1, ' ')
             }}}
-    // removes spaces and turns consonants variable into a string
-    const consonants = letters.filter((letter) => letter !== ' ').join('')
-    return consonants;
+    // removes spaces and counts consonants
+    const consonants = letters.filter((letter) => letter !== ' ')
+    money = money + consonants.length;
+    document.getElementById('money').innerHTML = `Money: ${money}`
 }
 
 function countVowels(word){
@@ -113,15 +115,17 @@ function returnVowels(word){
     return vowels;
 }
 
-// consonant button 
-const input = document.getElementById('wordInput');
-const button = document.getElementById('countButton')
-button.addEventListener('click', () => {
-    const result = returnConsonants(input.value)
-    const newH1 = document.createElement('h1')
-    document.getElementById('result').appendChild(newH1)
-    newH1.innerHTML = result
-})
+// // consonant button 
+// const input = document.getElementById('wordInput');
+// const button = document.getElementById('countButton')
+// button.addEventListener('click', () => {
+//     const result = returnConsonants(input.value)
+//     const newH1 = document.createElement('h1')
+//     document.getElementById('result').appendChild(newH1)
+//     newH1.innerHTML = result
+// })
+
+
 // generate client button
 const generateClientButton = document.getElementById('clientButton')
 // show client profile
@@ -152,7 +156,8 @@ function findMatchingVowels(data, number, word){
 }
 
 function removeClient(id){
-    
-    document.getElementById(`${id}`).remove()
-
+    document.getElementById(`client${id}`).innerHTML = "Thanks!"
+    setTimeout(() => document.getElementById(`${id}`).remove(), 1000)
 }
+
+
