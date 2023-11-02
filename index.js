@@ -115,16 +115,6 @@ function returnVowels(word){
     return vowels;
 }
 
-// // consonant button 
-// const input = document.getElementById('wordInput');
-// const button = document.getElementById('countButton')
-// button.addEventListener('click', () => {
-//     const result = returnConsonants(input.value)
-//     const newH1 = document.createElement('h1')
-//     document.getElementById('result').appendChild(newH1)
-//     newH1.innerHTML = result
-// })
-
 
 // generate client button
 const generateClientButton = document.getElementById('clientButton')
