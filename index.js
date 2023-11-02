@@ -146,8 +146,13 @@ function findMatchingVowels(data, number, word){
                 vowel2 = true;
         }})
         if(vowel1 === true && vowel2 === true){
-            removeClient();
+            removeClient(number);
         }
 
 }
 
+function removeClient(id){
+    
+    document.getElementById(`${id}`).remove()
+
+}
